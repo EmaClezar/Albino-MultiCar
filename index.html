@@ -30,9 +30,16 @@
 
       <!-- CARRO 1 -->
       <article>
-        <img src="imagens/cruze1.jpg" alt="Cruze" />
-        <h1>Cruze LTZ 1.4 Turbo</h1>
+        <!-- CARROSSEL -->
+        <div class="carrossel">
+          <img id="cruze" class="moldura" src="imagens/cruze/img1.jpg">
+          <div class="botoes">
+            <button onclick="voltar('cruze')">◀</button>
+            <button onclick="avancar('cruze')">▶</button>
+          </div>
+        </div>
 
+        <h1>Cruze LTZ 1.4 Turbo</h1>
         <span class="preco">R$ 84.900</span>
 
         <p>
@@ -54,9 +61,15 @@
 
       <!-- CARRO 2 -->
       <article>
-        <img src="imagens/elantra1.jpg" alt="Elantra" />
-        <h1>Elantra GLS 1.8 2013</h1>
+        <div class="carrossel">
+          <img id="elantra" class="moldura" src="imagens/elantra/img1.jpg">
+          <div class="botoes">
+            <button onclick="voltar('elantra')">◀</button>
+            <button onclick="avancar('elantra')">▶</button>
+          </div>
+        </div>
 
+        <h1>Elantra GLS 1.8 2013</h1>
         <span class="preco">R$ 65.500</span>
 
         <p>
@@ -77,9 +90,15 @@
 
       <!-- CARRO 3 -->
       <article>
-        <img src="imagens/civic1.jpg" alt="Civic" />
-        <h1>Honda Civic EXS 1.8 2012</h1>
+        <div class="carrossel">
+          <img id="civic" class="moldura" src="imagens/civic/img1.jpg">
+          <div class="botoes">
+            <button onclick="voltar('civic')">◀</button>
+            <button onclick="avancar('civic')">▶</button>
+          </div>
+        </div>
 
+        <h1>Honda Civic EXS 1.8 2012</h1>
         <span class="preco">R$ 79.900</span>
 
         <p>
@@ -102,9 +121,15 @@
 
       <!-- CARRO 4 -->
       <article>
-        <img src="imagens/triton1.jpg" alt="Triton" />
-        <h1>L200 Triton HPE 3.5 V6 2012</h1>
+        <div class="carrossel">
+          <img id="triton" class="moldura" src="imagens/triton/img1.jpg">
+          <div class="botoes">
+            <button onclick="voltar('triton')">◀</button>
+            <button onclick="avancar('triton')">▶</button>
+          </div>
+        </div>
 
+        <h1>L200 Triton HPE 3.5 V6 2012</h1>
         <span class="preco">R$ 92.500</span>
 
         <p>
@@ -127,12 +152,10 @@
     </section>
   </main>
 
-  <!-- RODAPÉ -->
   <footer>
     <p>Albino Multicar</p>
-    <p>Desenvolvido por alunos da sugunda fase de Ciências da Computção</p>
+    <p>Desenvolvido por alunos da segunda fase de Ciências da Computação</p>
   </footer>
-
 
   <script src="script.js"></script>
 
