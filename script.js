@@ -1,1 +1,1 @@
-alert("Olá! Este é um alerta em JavaScript.");
+alert("Bem-Vindo a Albino MultiCar!");
