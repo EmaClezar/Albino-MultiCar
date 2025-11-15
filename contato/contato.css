@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color: white;
+}
+
+/* HEADER */
+header {
+    position: relative;
+    background-color: black;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+/* estilizaçao e função do bontao */
+.menu-container {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-btn {
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    min-width: 120px;
+    overflow: hidden;
+}
+
+.menu-dropdown a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-dropdown a:hover {
+    background: #eee;
+}
+
+#menu-toggle:checked + .menu-btn + .menu-dropdown {
+    display: block;
+}
+
+/* conteudo */
+.contato {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #111;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contato h2,
+.contato h3 {
+    color: white;
+}
+
+
+/* formato botoes de redes sociais */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* movimento dos botoes de whats... */
+.btn:hover {
+    transform: scale(1.03);
+}
+
+/* cor btn insta */
+.whats {
+    background: rgb(97, 146, 23);
+}
+/* cor btn insta */
+.insta {
+    background: rgb(220, 141, 5);
+}
+/* cor btn  */
+.facebook {
+    background: blue;
+}
+
+
+
+/* mapa */
+.maps-box {
+    margin-top: 20px;
+}
+
+/* mapa */
+iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* rodape */
+footer {
+    margin-top: 40px;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
